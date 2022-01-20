@@ -1,0 +1,11 @@
+*.exe
+lib/
+Lib/
+tcl/
+DLLs/
+include/
+*.sln
+*.vcxproj*
+x64/
+*.vs
+__pycache__/
