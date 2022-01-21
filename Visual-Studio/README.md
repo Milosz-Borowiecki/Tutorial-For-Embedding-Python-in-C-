@@ -49,11 +49,19 @@ int main(int argc, char *argv[])
 }
 ```
 
+Last thing we need to add `Py_SetPythonHome` function before the `Py_Initialize`.
+
+As the argument we pass a relative path to the Python folder with all standard Python libraries.
+
+```
+Py_SetPythonHome(L".\\Python");
+```
+
 ## Warning
 
 This code will return linking error:
 ``
-cannot open file 'python310_d.lib'
+cannot open file 'pythonXY_d.lib'
 ``
 
 That's because you may use Debug mode.

@@ -50,6 +50,16 @@ int main(int argc, char *argv[])
 }
 ```
 
+Last thing we need to add `Py_SetPythonHome` function before the `Py_Initialize`.
+
+As the argument we pass a relative path to the Python folder with all standard Python libraries.
+
+```
+Py_SetPythonHome(L".\\Python");
+```
+
+
+
 # Let's test this
 
 In MyScripts folder I added two files:
