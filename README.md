@@ -1,6 +1,6 @@
 # Tutorial For Embedding Python In C++
 
-In this tutorial I will demonstrate how you can embedd Python interpreter to any C++ program on the high level. 
+In this tutorial I will demonstrate how you can embedding Python interpreter to any C++ program on the high level. 
 
 The following documentation will show you full process.
 This tutorial is mainly for Windows users.
